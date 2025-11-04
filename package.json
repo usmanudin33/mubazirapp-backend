@@ -13,6 +13,9 @@
   "type": "commonjs",
   "dependencies": {
     "express": "^5.1.0",
-    "firebase-admin": "^13.5.0"
+    "firebase-admin": "^13.5.0",
+    "axios": "^1.6.0",
+    "pm2": "^5.3.0"
   }
+  
 }
