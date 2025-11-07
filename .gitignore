@@ -1,3 +1,7 @@
 node_modules/
 .env
-serviceAccountKey.json 
+serviceAccountKey.json
+mubazir-48ee5-firebase-adminsdk-fbsvc-352ebfdacb.json
+node_modules/
+evolution-api/
+pm2/
