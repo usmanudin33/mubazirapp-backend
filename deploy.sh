@@ -35,7 +35,6 @@ pm2 start "npm start" --name "evolution-api" --cwd "/home/ec2-user/mubazirapp-ba
 # 7. Start/Restart Express App
 echo "Starting Express backend..."
 pm2 delete mubazirapp-backend 2>/dev/null || true
-pm2 delete mubazir-app 2>/dev/null || true
 pm2 start app.js --name "mubazirapp-backend" --wait-ready
 
 # 8. Save PM2 process list
